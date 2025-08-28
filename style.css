@@ -1,0 +1,51 @@
+/* styles.css */
+
+.mySlide(){
+  display: none;
+}
+.contact-link {
+  color: #3B3B3B;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-link:hover {
+  text-decoration: none;
+  color: #555b6e;
+}
+
+/* Layout adjustments for smaller screens */
+@media (max-width: 992px) {
+  .w3-main {
+    margin-left: 0 !important;
+  }
+  .service-img {
+    float: none;
+    display: block;
+    margin: 0 auto 15px auto;
+    max-width: 80%;
+  }
+  .w3-row-padding > div {
+    margin-bottom: 20px;
+  }
+  .w3-quarter {
+    width: 100% !important;
+  }
+}
+
+.more-question {
+  background: 
+    linear-gradient(rgba(50, 100, 200, 0.5), rgba(50, 100, 200, 0.5)), 
+    url("images/service1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.call {
+  background: 
+    linear-gradient(rgba(50, 100, 200, 0.5), rgba(50, 100, 200, 0.5)), 
+    url("images/call.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
